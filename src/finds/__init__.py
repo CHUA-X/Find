@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # copyright 2024 CHUA某人
 
-# find.py ——在电脑浩如烟海的文件中寻找你想要的文件。
-# 用法：import find;find.find('文件名', copy=False, open=True)，其中copy参数为True则复制文件路径，opening参数为True则打开文件
+# finds ——在电脑浩如烟海的文件中寻找你想要的文件。
+# 用法：import finds;finds.find('文件名', copy=False, open=True)，其中copy参数为True则复制文件路径，opening参数为True则打开文件
 
 import os
 import string

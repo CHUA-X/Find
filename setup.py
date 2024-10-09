@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Find",
+    name="Finds",
     version="0.0.1",
     author="CHUA某人",
     author_email="chua-x@outlook.com",
     description="find ——在电脑浩如烟海的文件中寻找你想要的文件。",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/CHUA-X/Find",
+    url="https://github.com/CHUA-X/Finds",
     packages=setuptools.find_packages(where='./src'),
     package_dir={"": "src"},
     keyword=['Python', 'python', 'Search'],

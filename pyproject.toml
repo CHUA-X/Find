@@ -1,26 +1,15 @@
-[project]
-name = "Find"
+[tool.poetry]
+name = "finds"
 version = "0.0.1"
-authors = [
-  { name="CHUA某人", email="chua-x@outlook.com" },
-]
-description = "find ——在电脑浩如烟海的文件中寻找你想要的文件。"
+description = ""
+authors = ["CHUA-X <chua-x@outlook.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.6"
-classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3 :: Only",
-        "License :: OSI Approved :: MIT License",
-        "Natural Language :: Chinese (Simplified)",
-        "Natural Language :: English",
-        "Operating System :: Unix",
-        "Operating System :: POSIX :: Linux",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
 
-[project.urls]
-"Homepage" = "https://github.com/CHUA-X/Find"
-"Bug Tracker" = "https://github.com/CHUA-X/Find/issues"
+[tool.poetry.dependencies]
+python = "3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
