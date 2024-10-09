@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "finds"
+name = "finding"
 version = "0.0.1"
 description = ""
 authors = ["CHUA-X <chua-x@outlook.com>"]

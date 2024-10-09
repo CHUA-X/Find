@@ -1,10 +1,10 @@
-import setuptools
+﻿import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Finds",
+    name="Finding",
     version="0.0.1",
     author="CHUA某人",
     author_email="chua-x@outlook.com",

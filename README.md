@@ -9,9 +9,9 @@ finds ——在电脑浩如烟海的文件中寻找你想要的文件。
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # 用法
-> `import finds`
+> `import finding`
 > 
-> `finds.find('文件名', copy=True, opening=True)`
+> `finding.find('文件名', copy=True, opening=True)`
 >
 > P.S.:copy=关键字指定是否复制文件路径到剪贴板；opening=关键字指定是否打开文件。
 
